@@ -21,4 +21,4 @@ def stuff():
             'places': Place, 'reviews': Review}
     for key in todos:
         todos[key] = storage.count(todos[key])
-    return jsonify(todos)s
+    return jsonify(todos)
